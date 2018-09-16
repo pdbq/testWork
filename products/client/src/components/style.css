@@ -1,0 +1,42 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.none {
+	display: none !important;
+}
+header {
+	max-width: 1000px;
+	height: 70px;
+	background-color: #ddd;
+	text-align: center;
+	margin: auto;
+}
+section{
+	max-width: 1000px;
+	text-align: center;
+	margin: auto;
+}
+nav * {
+	margin: 10px;
+	padding: 10px;
+}
+.product_item {
+	width: 200px;
+	height: 100px;
+	text-align: center;
+	background-color: #ccc;
+	display: inline-block;
+	margin: 10px;
+}
+form *{
+	width: 200px;
+	margin: auto;
+	display: block;
+	padding: 10px;
+	margin-top: 10px;
+}
+.err {
+	border: 1px solid red;
+	background-color: #F08080;
+}
